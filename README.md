@@ -4,3 +4,7 @@ JustChat is a real-time messaging application that allows users to communicate s
 The primary features include user registration and authentication, one-on-one messaging, group chats, real-time message updates via Socket.io, and additional features like file sharing and emoji support. The backend uses REST APIs to handle data exchange between the client and the server, while MongoDB serves as the database to store user details, messages, and other related data.
 The architecture is designed to be modular and scalable, enabling future expansion with additional features such as an AI-powered chatbot and video/audio calling.
 
+Name- Tanay Chhajed
+University - IIT Patna
+Department - Artificial Intelligence & Data Science
+
