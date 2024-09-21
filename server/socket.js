@@ -34,6 +34,9 @@ const setupSocket = (server) => {
         if(recipientSocketId){
             io.to(recipientSocketId).emit("recieveMessage",messageData);
         }
+        if(senderSocketId){
+            io.to(senderSocketId).emit("recieveMessage",messageData);
+        }
     };
 
     io.on("connection",(socket)=>{

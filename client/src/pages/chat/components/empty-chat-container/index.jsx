@@ -6,9 +6,9 @@ import Lottie from "react-lottie";
 const EmptyChatContainer = () => {
   return (
     
-    <div className="flex-1 md:bg-[#1c1d25] md:flex md:flex-col justify-center items-center w-full h-full hidden transition-all duration-1000">
+    <div className="flex-1 xl:w-[80vw] md:bg-[#1c1d25] md:flex md:flex-col justify-center items-center w-full h-full hidden transition-all duration-1000">
       <Lottie 
-        isClickToPauseDisabled={IoTabletPortraitOutline}
+        isClickToPauseDisabled={true}
         height={200}
         width={200}
         options={animationDefaultOptions}      
